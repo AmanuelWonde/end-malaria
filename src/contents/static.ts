@@ -5,7 +5,7 @@ export const navLinks = [
   },
   {
     label: "Our Products",
-    to: "#products",
+    to: "#product",
   },
   {
     label: "About Us",

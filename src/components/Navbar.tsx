@@ -18,7 +18,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="w-full bg-primary py-2 px-6">
+    <div className="w-full bg-primary py-2 px-6 fixed top-0 ">
       {isMobile ? (
         <MobileNavbar />
       ) : (

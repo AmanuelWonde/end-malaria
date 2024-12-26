@@ -8,7 +8,10 @@ import {
 
 const Footer = () => {
   return (
-    <footer className=" py-10 px-20 w-full bg-primary md:flex  justify-between space-y-16 md:space-y-0 text-white">
+    <footer
+      className=" py-10 px-20 w-full bg-primary md:flex  justify-between space-y-16 md:space-y-0 text-white"
+      id="contact"
+    >
       <div className=" space-y-6">
         <img className="" src={logo} alt="" />
         <p className=" text-gray-200">Protecting you effectively</p>
@@ -22,15 +25,15 @@ const Footer = () => {
       <ul className=" space-y-3">
         <p className=" font-bold">Home</p>
         <li>
-          <a href="">Our Product</a>
+          <a href="#product">Our Product</a>
         </li>
         <li>
           {" "}
-          <a href="">Contact Us</a>
+          <a href="#footer">Contact Us</a>
         </li>
         <li>
           {" "}
-          <a href="">About Us</a>
+          <a href="#about-us">About Us</a>
         </li>
       </ul>
       <ul className=" space-y-3">

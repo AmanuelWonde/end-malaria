@@ -15,7 +15,9 @@ const AboutUs = () => {
           an automated and efficient manner.
         </p>
         <div className="flex justify-center md:justify-start">
-          <Button>Contact Us</Button>
+          <a href="#place-order">
+            <Button>Contact Us</Button>
+          </a>
         </div>
       </div>
       <img
