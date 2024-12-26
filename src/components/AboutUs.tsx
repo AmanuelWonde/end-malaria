@@ -1,5 +1,5 @@
 import productImage from "../../public/product.png";
-import Button from "./ui/button";
+import Button from "./ui/Button";
 const AboutUs = () => {
   return (
     <div

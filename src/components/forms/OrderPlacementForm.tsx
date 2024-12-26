@@ -1,5 +1,5 @@
 import prodcutImage from "../../../public/Group 1000003405.png";
-import Button from "../ui/button";
+import Button from "../ui/Button";
 import Input from "../ui/Input";
 const OrderPlacementForm = () => {
   return (
