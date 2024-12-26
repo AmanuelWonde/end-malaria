@@ -28,7 +28,7 @@ const OrderPlacementForm = () => {
         <div className="flex gap-6 w-40 mx-auto ">
           <Button
             type="reset"
-            className=" bg-white border-2 border-primary text-black rounded-xl"
+            className=" bg-gray-700 border-2 border-primary  rounded-xl"
           >
             Cancel
           </Button>

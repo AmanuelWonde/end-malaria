@@ -4,7 +4,7 @@ import ProductCard from "./cards/ProductCard";
 const Products = () => {
   return (
     <div
-      className="w-full flex flex-col gap-12 justify-center items-center px-4"
+      className="w-full flex flex-col gap-10 justify-center items-center px-4"
       id="products"
     >
       <h1 className="text-primary text-3xl font-bold text-center">

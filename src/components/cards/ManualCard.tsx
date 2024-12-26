@@ -2,7 +2,7 @@ import Button from "../ui/Button";
 
 const ManualCard = () => {
   return (
-    <div className="h-[300px] w-full md:w-[662px] md:h-[448px] border-1 rounded border-primary p-6 space-y-6">
+    <div className=" w-full md:w-[662px] md:h-[448px] border-1 rounded border-primary p-6 space-y-6">
       <p className=" text-primary text-lg font-bold text-center  md:text-left ">
         Manual
       </p>
