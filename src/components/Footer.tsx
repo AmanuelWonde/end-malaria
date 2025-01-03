@@ -14,7 +14,7 @@ const Footer = () => {
     >
       <div className=" space-y-6">
         <img className="" src={logo} alt="" />
-        <p className=" text-gray-200">Protecting you effectively</p>
+        <p className=" text-gray-200">ያለስጋት ይኑሩ!</p>
         <div className=" flex gap-6">
           <RiFacebookCircleLine size={25} />
           <RiLinkedinLine size={25} />
@@ -23,21 +23,21 @@ const Footer = () => {
         </div>
       </div>
       <ul className=" space-y-3">
-        <p className=" font-bold">Home</p>
+        <p className=" font-bold">መግቢያ</p>
         <li>
-          <a href="#product">Our Product</a>
+          <a href="#product">ምርታችን</a>
         </li>
         <li>
           {" "}
-          <a href="#footer">Contact Us</a>
+          <a href="#footer">ያግኙን</a>
         </li>
         <li>
           {" "}
-          <a href="#about-us">About Us</a>
+          <a href="#about-us">ስለ እኛ</a>
         </li>
       </ul>
       <ul className=" space-y-3">
-        <p className=" font-bold">Contact us</p>
+        <p className=" font-bold">እኛን ለማግኝት</p>
         <li>endmalariae@gmail.com</li>
         <li>www.endmalaria.com</li>
         <li>+251-9-56-98-21</li>

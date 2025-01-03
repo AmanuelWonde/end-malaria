@@ -8,7 +8,7 @@ const Products = () => {
       id="product"
     >
       <h1 className="text-primary text-4xl md:text-6xl font-bold text-center">
-        Our Product
+        ምርታችንን ይዘዙ
       </h1>
       <div className="w-full max-w-5xl flex space-y-12 md:space-y-0 flex-col-reverse md:flex-row justify-center items-center gap-12">
         <ProductCard />
