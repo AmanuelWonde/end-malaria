@@ -7,16 +7,14 @@ const AboutUs = () => {
       id="about-us"
     >
       <div className="w-full max-w-xl space-y-8 text-center  md:text-left">
-        <h1 className="text-3xl text-primary font-extrabold">Who We Are</h1>
+        <h1 className="text-3xl text-primary font-extrabold">ስለ እኛ</h1>
         <p className="text-gray-700">
-          We are a team based in Addis Ababa, Ethiopia focusing on manufacturing
-          and distributing an automated mosquito repellent dispenser to help
-          prevail the spread of malaria by combating the spread of Mosquitoes in
-          an automated and efficient manner.
+          የወባ ስርጭትን በራስ ሰር እና ቀልጣፋ በመታገል የወባ ስርጭትን ለመግታት የሚረዳ አውቶማቲክ የወባ ትንኝ
+          መከላከያ ማሽን በማምረት እና በማከፋፈል ላይ ያተኮረ አዲስ አበባ ላይ የተመሰረተ ቡድን ነን።
         </p>
         <div className="flex justify-center md:justify-start">
           <a href="#place-order">
-            <Button>Contact Us</Button>
+            <Button>አግኙን</Button>
           </a>
         </div>
       </div>

@@ -6,6 +6,7 @@ interface InputProps {
   disabled?: boolean;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
   type?: string;
+  name?: string;
 }
 const Input = ({
   lable,
@@ -15,6 +16,7 @@ const Input = ({
   disabled,
   onChange,
   type,
+  name,
 }: InputProps) => {
   return (
     <div className=" flex flex-col w-full space-y-2">
@@ -28,6 +30,7 @@ const Input = ({
         disabled={disabled}
         onChange={onChange}
         type={type}
+        name={name}
       />
     </div>
   );

@@ -1,18 +1,18 @@
 export const navLinks = [
   {
-    label: "Home",
+    label: "መግቢያ",
     to: "#",
   },
   {
-    label: "Our Products",
+    label: "ምርታችን",
     to: "#product",
   },
   {
-    label: "About Us",
+    label: "ስለ እኛ",
     to: "#about-us",
   },
   {
-    label: "Contact Us",
+    label: "አግኙን",
     to: "#contact",
   },
 ];
