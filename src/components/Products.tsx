@@ -11,7 +11,7 @@ const Products = () => {
         ምርታችንን ይዘዙ
       </h1>
       <div className="w-full max-w-5xl flex space-y-12 md:space-y-0 flex-col-reverse md:flex-row justify-center items-center gap-12">
-        <ProductCard />
+        {/* <ProductCard /> */}
         <ManualCard />
       </div>
     </div>
